@@ -1,0 +1,16 @@
+<%- include("./include/header"); %>
+
+<section id="list">
+  <h2>LIST</h2>
+  <ul>
+    <% list.forEach((item.idx) => { %>
+    <li>
+      <span class="no"><%= item.no %></span>
+      <p class="subject"><%= item.subject %></p>
+      <span class="time"><%= item.time %></span>
+    </li>
+    <% }) %>
+  </ul>
+</section>
+
+<script></script>
